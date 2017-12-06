@@ -170,7 +170,15 @@
             "Key": "31b5e862-d19c-4616-ab95-27a06249a4a0",
             "Value": {
                 "id": "ff3228b0-af87-4055-b3a4-b0f685da713f",
-                "resourcePath": "objects\\Obj_BlockParent\\Obj_BlockParent.yy",
+                "resourcePath": "objects\\Par_Block\\Par_Block.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3729b134-0eb8-4eaa-872b-5d0d15bdc524",
+            "Value": {
+                "id": "351af91b-e2ec-47cd-932e-3e2d81ffe555",
+                "resourcePath": "objects\\Obj_Pillar\\Obj_Pillar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -228,6 +236,14 @@
                 "id": "31f31f93-d4aa-43fb-9ce0-774ab10d6cbd",
                 "resourcePath": "views\\537fd86d-1551-428f-8a11-2a6941a36037.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "57299b80-f65a-4e66-9336-c68fe3f0acb5",
+            "Value": {
+                "id": "397d7eec-9935-4e61-ad7f-4520fec97c00",
+                "resourcePath": "objects\\Obj_Draw_Depth\\Obj_Draw_Depth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -351,6 +367,14 @@
             }
         },
         {
+            "Key": "9453af8a-e39a-4a8c-a329-22a328b14449",
+            "Value": {
+                "id": "72137bd0-6bb7-490e-88de-9a8f4a8cabf9",
+                "resourcePath": "views\\9453af8a-e39a-4a8c-a329-22a328b14449.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "963d20d8-f3b6-4980-b00c-a3ecd6327ab4",
             "Value": {
                 "id": "82ddc201-3d98-401c-882b-74ec5c04cb67",
@@ -412,6 +436,14 @@
                 "id": "171f27fa-622c-48c2-b98c-3fd34be10dd5",
                 "resourcePath": "views\\a3969f6a-3b0e-439a-9bfa-169614e82e96.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6ee6386-747d-4ebf-a35d-6f4b23811c23",
+            "Value": {
+                "id": "abd3a2a9-51a2-498a-baf0-66017d844cad",
+                "resourcePath": "objects\\Par_Depth\\Par_Depth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -576,14 +608,14 @@
         }
     ],
     "script_order": [
-        "47961f02-bd50-4cee-8baf-5f806323d5df",
         "13b06cb5-db47-46c2-ba40-0457bd0b1b9b",
         "e1ddf9bb-14d5-4fac-8e47-3f42eaf35e39",
         "2d537bf4-4b19-41d0-ba93-cb9aee7f0744",
         "99a3ab86-571a-4023-b6e3-8a6080dabac9",
         "883eb01d-be50-4904-bbbf-9364af068590",
         "2cf3f116-38b5-4140-b33e-72e20cbc765d",
-        "699ec26a-dee2-4474-8fcb-c7254a940da2"
+        "699ec26a-dee2-4474-8fcb-c7254a940da2",
+        "47961f02-bd50-4cee-8baf-5f806323d5df"
     ],
     "tutorial": ""
 }

@@ -20,11 +20,11 @@ moveY = (input_down - input_up) * spd;
 
 if moveX != 0
 {
-	if place_meeting(x+moveX,y,Obj_BlockParent)
+	if !place_free(x+moveX,y)
 	{
 		repeat(abs(moveX))
 		{
-			if !place_meeting(x+sign(moveX),y,Obj_BlockParent)
+			if place_free(x+sign(moveX),y)
 			{
 				x += sign(moveX);
 			}
@@ -36,11 +36,11 @@ if moveX != 0
 
 if moveY != 0
 {
-	if place_meeting(x,y+moveY,Obj_BlockParent)
+	if !place_free(x,y+moveY)
 	{
 		repeat(abs(moveX))
 		{
-			if !place_meeting(x,y+sign(moveY),Obj_BlockParent)
+			if place_free(x,y+sign(moveY))
 			{
 				y += sign(moveY);
 			}
