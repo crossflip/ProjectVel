@@ -1,0 +1,113 @@
+{	
+	if surface_exists(fadesurface)
+	{
+		fade += 0.01;
+		draw_set_alpha(fade);
+		draw_set_color(c_black);
+		draw_rectangle(view_xport,view_yport,view_wport,view_hport,0);
+	}
+	else
+	{
+		fadesurface = surface_create(640,360);
+		surface_set_target(fadesurface);
+		draw_clear_alpha(c_white,1);
+		surface_reset_target();
+	}
+}
+
+
+
+
+/// @description Lightingboye
+// You can write your code in this editor
+
+if surface_exists(surflighting)
+{
+	surface_set_target(surflighting);
+	//make dark overlay (change color pls)
+	draw_set_color(make_color_hsv(240,100,10));
+	draw_set_alpha(0.3);
+	draw_rectangle(0,0,room_width,room_height,0);
+	
+	gpu_set_blendmode(bm_subtract);
+	
+	//draw circles around player
+	draw_set_color(c_black);
+	draw_set_alpha(0.2);
+	
+	with (Obj_Player)
+	{
+		draw_circle(x, y - Obj_Player.litoffset, Obj_Player.litfactor + Obj_Player.litfactor/2,0)	
+	}
+	
+	draw_set_color(c_white);
+	draw_set_alpha(1);
+	
+	with (Obj_Player)
+	{
+		draw_circle(x, y - Obj_Player.litoffset, Obj_Player.litfactor,0)	
+	}
+	
+	
+	//draw circles around lights
+	draw_set_color(c_black);
+	draw_set_alpha(0.2);
+	
+	with (Obj_Vilakku)
+	{
+		draw_circle(x, y - Obj_Vilakku.litoffset, Obj_Vilakku.litfactor + Obj_Vilakku.litfactor/2,0)	
+	}
+	
+	draw_set_color(c_white);
+	draw_set_alpha(1);
+	
+	with (Obj_Vilakku)
+	{
+		draw_circle(x, y - Obj_Vilakku.litoffset, Obj_Vilakku.litfactor,0)	
+	}
+	
+	//draw circles around Portal
+	draw_set_color(c_black);
+	draw_set_alpha(0.2);
+	
+	with (Obj_Portal)
+	{
+		draw_circle(x, y - Obj_Portal.litoffset, Obj_Portal.litfactor + Obj_Portal.litfactor/2,0)	
+	}
+	
+	draw_set_color(c_white);
+	draw_set_alpha(1);
+	
+	with (Obj_Portal)
+	{
+		draw_circle(x, y - Obj_Portal.litoffset, Obj_Portal.litfactor,0)	
+	}
+	
+	//reset all draws
+	gpu_set_blendmode(bm_normal);
+	draw_set_alpha(1);
+	surface_reset_target();
+}
+else
+{
+	surflighting = surface_create(room_width,room_height);
+	surface_set_target(surflighting);
+	draw_clear_alpha(c_black,0);
+}
+
+
+
+
+
+	//draw circles around lightsource
+	draw_set_color(c_black);
+	draw_set_alpha(0.2);
+	
+	draw_circle(x, y - litoffset, litfactor + litfactor/2,0);
+	
+	draw_set_color(c_white);
+	draw_set_alpha(1);
+
+
+	draw_circle(x, y - litoffset, litfactor,0);	
+
