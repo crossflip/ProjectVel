@@ -1,4 +1,4 @@
-/// Player movement
+/// @description All that player stuff
 // You can write your code in this editor
 Scr_Getinputs ();
 
@@ -11,6 +11,17 @@ if (state = states.combat)
 	Scr_Player_SmoothMoveState();
 }
 
+//sprinting
+if input_run
+{
+	state = states.combat
+	spd = run_spd; 
+}
+else 
+{
+	state = states.walk
+	spd = walk_spd;
+}
 
 
 //dust
@@ -18,7 +29,7 @@ if yframe > 0
 {
 	dustcount +=1
 }
-else {dustcount = 0;}
+else {dustcount = 20;}
 
 part_type_sprite(dust,dustindex,1,1,0);
 

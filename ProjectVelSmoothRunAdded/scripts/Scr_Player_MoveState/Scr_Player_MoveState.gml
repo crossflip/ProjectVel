@@ -1,15 +1,4 @@
-
-
-
-//sprinting
-if input_run
-{
-	spd = run_spd;
-}
-else 
-{
-	spd = walk_spd;
-}
+///Scr_Player_MoveState
 
 
 //direction
@@ -20,7 +9,7 @@ moveY = (input_down - input_up) * spd;
 
 if moveX != 0
 {
-	if !place_free(x+moveX,y)
+	if !place_free(x+moveX,y-2)
 	{
 		repeat(abs(moveX))
 		{

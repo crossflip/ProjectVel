@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Init camera
 // You can write your code in this editor
 following = Obj_Player;
 

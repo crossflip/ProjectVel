@@ -1,6 +1,6 @@
 ///Scr_Player_WalkAnim
-sprite_index = Spr_PlayerWalkSheet;
-var frame_size = 48;
+sprite_index = Spr_PlayerRunSheet;
+var frame_size = 64;
 var anim_speed =10;
 
 
@@ -21,17 +21,17 @@ if moveX = 0 && moveY = 0
 }
 else if moveX != 0 
 {
-	anim_length = 8;
-	anim_speed = 12;
+	anim_length = 10;
+	anim_speed = 10;
 }
 else if moveY != 0 
 {
-	anim_length = 8;
-	anim_speed = 12;
+	anim_length = 10;
+	anim_speed = 10;
 }
 
 xframe += anim_speed/60;
 if floor(xframe)*frame_size >= anim_length*frame_size {xframe = 0;}
 
-draw_sprite_part(Spr_PlayerWalkSheet,0,floor(xframe)*frame_size,yframe,48,64,xx,yy)
+draw_sprite_part(Spr_PlayerRunSheet,0,floor(xframe)*frame_size,yframe,48,64,xx,yy)
 

@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description follow object
 // You can write your code in this editor
 
 xTo = clamp(following.x, following.x - hborder, following.x + hborder);

@@ -1,4 +1,4 @@
-//smoooth
+/// Scr_Player_SmoothMoveState
 
 var hspeed_wanted = 0;
 var vspeed_wanted = 0;
@@ -9,11 +9,6 @@ else if input_right - input_left = 0 {hspeed_wanted = 0;}
 if input_up - input_down = 1 {vspeed_wanted -= spd;}
 else if input_up - input_down = -1 {vspeed_wanted += spd;}
 else if input_up - input_down = 0 {vspeed_wanted = 0;}
-
-
-spd = run_spd; 
-//set this in player when you set the state
-
 
 
 //direction
@@ -27,11 +22,11 @@ var ysp = round(moveY);
 
 if xsp != 0
 {
-	if place_meeting(x+xsp,y,Obj_BlockParent)
+	if !place_free(x+xsp,y-2)
 	{
 		repeat(abs(xsp))
 		{
-			if !place_meeting(x+sign(xsp),y,Obj_BlockParent)
+			if place_free(x+sign(xsp),y)
 			{
 				x += sign(xsp);
 			}
@@ -43,11 +38,11 @@ if xsp != 0
 
 if ysp != 0
 {
-	if place_meeting(x,y+ysp,Obj_BlockParent)
+	if !place_free(x,y+ysp)
 	{
 		repeat(abs(ysp))
 		{
-			if !place_meeting(x,y+sign(ysp),Obj_BlockParent)
+			if place_free(x,y+sign(ysp))
 			{
 				y += sign(ysp);
 			}
