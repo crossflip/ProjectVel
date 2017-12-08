@@ -1,6 +1,7 @@
 ///Scr_Player_MoveState
 
 
+
 //direction
 moveX = (input_right - input_left) * spd;
 moveY = (input_down - input_up) * spd;
@@ -9,7 +10,7 @@ moveY = (input_down - input_up) * spd;
 
 if moveX != 0
 {
-	if !place_free(x+moveX,y-2)
+	if !place_free(x+moveX,y)
 	{
 		repeat(abs(moveX))
 		{

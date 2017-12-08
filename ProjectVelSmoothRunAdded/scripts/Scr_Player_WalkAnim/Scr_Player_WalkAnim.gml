@@ -22,12 +22,12 @@ if moveX = 0 && moveY = 0
 else if moveX != 0 
 {
 	anim_length = 8;
-	anim_speed = 12;
+	anim_speed = 10;
 }
 else if moveY != 0 
 {
 	anim_length = 8;
-	anim_speed = 12;
+	anim_speed = 10;
 }
 
 xframe += anim_speed/60;

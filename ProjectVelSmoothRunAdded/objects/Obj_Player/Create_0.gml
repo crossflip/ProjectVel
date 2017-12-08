@@ -21,7 +21,8 @@ walk_spd = 1.5;
 run_spd = 3;
 moveX = 0;
 moveY = 0;
-
+xsp = round(moveX);
+ysp = round(moveY);
 
 //anim variables
 xframe = 0;

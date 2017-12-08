@@ -15,8 +15,8 @@ else if input_up - input_down = 0 {vspeed_wanted = 0;}
 moveX += (hspeed_wanted - moveX) * 0.2;
 moveY += (vspeed_wanted - moveY) * 0.2;
 
-var xsp = round(moveX);
-var ysp = round(moveY);
+xsp = round(moveX);
+ysp = round(moveY);
 
 //collision
 
