@@ -10,11 +10,12 @@ moveY = (input_down - input_up) * spd;
 
 if moveX != 0
 {
-	if !place_free(x+moveX,y)
+	var collisionH = instance_place(x+moveX,y,Par_Block);
+	if collisionH != noone && collisionH.collideable
 	{
 		repeat(abs(moveX))
 		{
-			if place_free(x+sign(moveX),y)
+			if !place_meeting(x+sign(moveX),y,Par_Block)
 			{
 				x += sign(moveX);
 			}
@@ -26,11 +27,12 @@ if moveX != 0
 
 if moveY != 0
 {
-	if !place_free(x,y+moveY)
+	var collisionV = instance_place(x,y+moveY,Par_Block);
+	if collisionV != noone && collisionV.collideable
 	{
 		repeat(abs(moveX))
 		{
-			if place_free(x,y+sign(moveY))
+			if !place_meeting(x,y+sign(moveY),Par_Block)
 			{
 				y += sign(moveY);
 			}
@@ -41,5 +43,5 @@ if moveY != 0
 }
 
 
-x += round(moveX)
-y += round(moveY)
+x += moveX
+y += moveY

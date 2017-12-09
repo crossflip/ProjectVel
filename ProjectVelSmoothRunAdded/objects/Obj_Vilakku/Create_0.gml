@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+collideable = 0;
 litfactor = 10;
 litoffset = 3;
 flicker = 0.5;

@@ -4,19 +4,10 @@
     "mvc": "1.0",
     "name": "Obj_Block",
     "eventList": [
-        {
-            "id": "50880b12-15c9-4343-b91f-abc776e7e605",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "59225ebf-5527-4ff0-befc-860133a42c03"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "31b5e862-d19c-4616-ab95-27a06249a4a0",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

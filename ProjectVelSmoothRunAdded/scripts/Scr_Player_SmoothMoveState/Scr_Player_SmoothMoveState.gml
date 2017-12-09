@@ -22,11 +22,12 @@ ysp = round(moveY);
 
 if xsp != 0
 {
-	if !place_free(x+xsp,y-2)
+	var collisionH = instance_place(x+xsp,y,Par_Block);
+	if collisionH != noone && collisionH.collideable
 	{
 		repeat(abs(xsp))
 		{
-			if place_free(x+sign(xsp),y)
+			if !place_meeting(x,y+sign(xsp),Par_Block)
 			{
 				x += sign(xsp);
 			}
@@ -38,11 +39,12 @@ if xsp != 0
 
 if ysp != 0
 {
-	if !place_free(x,y+ysp)
+	var collisionV = instance_place(x,y+ ysp,Par_Block);
+	if collisionV != noone && collisionV.collideable
 	{
 		repeat(abs(ysp))
 		{
-			if place_free(x,y+sign(ysp))
+			if !place_meeting(x,y+sign(ysp),Par_Block)
 			{
 				y += sign(ysp);
 			}

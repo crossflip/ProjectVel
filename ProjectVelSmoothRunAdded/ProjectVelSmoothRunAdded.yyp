@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04181ff8-9142-4b68-a667-78d1c4c1fbac",
+            "Value": {
+                "id": "7b8af4d3-9abe-4e70-a0e0-c968fb200c76",
+                "resourcePath": "objects\\Obj_StatueSmall\\Obj_StatueSmall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05c05eca-ad6a-4ca3-a393-d22688e31410",
             "Value": {
                 "id": "6ec57d68-4db4-4543-b59d-6489dab66e0d",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "65ff2d11-940c-4906-b232-8e3a598103c6",
                 "resourcePath": "sprites\\Spr_StoneTileSet\\Spr_StoneTileSet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4421f9e2-ca2b-4d55-b9c3-eeda859e365b",
+            "Value": {
+                "id": "39c1a5c2-8589-481d-9386-ecb92d878286",
+                "resourcePath": "sprites\\Spr_StatueBig\\Spr_StatueBig.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -523,6 +539,14 @@
             "Value": {
                 "id": "378b4d40-411b-4d9d-b192-b7acb859ff74",
                 "resourcePath": "sprites\\Spr_NightGradient\\Spr_NightGradient.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b2fcb716-c207-4c13-bdb8-e116067d285f",
+            "Value": {
+                "id": "644f0bbd-9631-4d2a-a016-f8b8041f3b00",
+                "resourcePath": "sprites\\Spr_StatueSmall\\Spr_StatueSmall.yy",
                 "resourceType": "GMSprite"
             }
         },
