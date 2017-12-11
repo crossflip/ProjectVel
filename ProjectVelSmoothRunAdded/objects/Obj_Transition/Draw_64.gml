@@ -15,7 +15,7 @@ draw_set_color(c_black);
 draw_rectangle(0,0,guiWidth,guiHeight,0);
 draw_set_alpha(1);
 
-if next == 1 && fade = -1
+
 
 if transitioned == 1 && opacity == 0
 {

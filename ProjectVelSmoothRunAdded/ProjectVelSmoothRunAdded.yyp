@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "0b2da8d2-768e-425e-bf97-fe9f1c62b8ea",
-            "Value": {
-                "id": "0d41a96d-059f-46c4-aeb1-14680ae70ee6",
-                "resourcePath": "views\\0b2da8d2-768e-425e-bf97-fe9f1c62b8ea.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0ba101f6-cf6d-47c9-b1c8-15ba2485c4bb",
             "Value": {
                 "id": "0b7ad690-95f9-4704-af90-85cde00587a9",
@@ -156,14 +148,6 @@
                 "id": "7bf13349-eee2-443f-8b52-76208e3e26de",
                 "resourcePath": "sprites\\Spr_PlayerIdle\\Spr_PlayerIdle.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2cf3f116-38b5-4140-b33e-72e20cbc765d",
-            "Value": {
-                "id": "a16a21fc-94e1-4829-8913-04b3975026cd",
-                "resourcePath": "scripts\\Scr_Lighting_Create\\Scr_Lighting_Create.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -303,14 +287,6 @@
             }
         },
         {
-            "Key": "699ec26a-dee2-4474-8fcb-c7254a940da2",
-            "Value": {
-                "id": "9dc21a95-5d02-4aaf-a5d1-f7982f8dcc7a",
-                "resourcePath": "scripts\\Scr_Lighting_Draw\\Scr_Lighting_Draw.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6e2f96ee-a4fa-429a-a754-dd75d7b7f0ec",
             "Value": {
                 "id": "9af85be3-d49b-44f3-b703-68d6c8e90492",
@@ -388,14 +364,6 @@
                 "id": "3d8fb6b1-b0b1-49f8-ba1f-cd6e65609e67",
                 "resourcePath": "views\\8706bc7a-3684-441b-ad31-df4be7de7af7.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "883eb01d-be50-4904-bbbf-9364af068590",
-            "Value": {
-                "id": "0f241836-1268-4096-bf4d-a9f222b8b189",
-                "resourcePath": "scripts\\Scr_Lighting\\Scr_Lighting.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -677,9 +645,6 @@
         "e1ddf9bb-14d5-4fac-8e47-3f42eaf35e39",
         "c471eab1-48e6-4e03-abb9-b301acb35083",
         "99a3ab86-571a-4023-b6e3-8a6080dabac9",
-        "883eb01d-be50-4904-bbbf-9364af068590",
-        "2cf3f116-38b5-4140-b33e-72e20cbc765d",
-        "699ec26a-dee2-4474-8fcb-c7254a940da2",
         "47961f02-bd50-4cee-8baf-5f806323d5df",
         "4e011050-0e99-40d8-881d-7dd120027eb6"
     ],

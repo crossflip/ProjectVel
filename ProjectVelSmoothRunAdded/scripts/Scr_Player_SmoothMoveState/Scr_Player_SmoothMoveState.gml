@@ -27,7 +27,7 @@ if xsp != 0
 	{
 		repeat(abs(xsp))
 		{
-			if !place_meeting(x,y+sign(xsp),Par_Block)
+			if !place_meeting(x+sign(xsp),y,Par_Block)
 			{
 				x += sign(xsp);
 			}
@@ -39,7 +39,7 @@ if xsp != 0
 
 if ysp != 0
 {
-	var collisionV = instance_place(x,y+ ysp,Par_Block);
+	var collisionV = instance_place(x,y + ysp,Par_Block);
 	if collisionV != noone && collisionV.collideable
 	{
 		repeat(abs(ysp))

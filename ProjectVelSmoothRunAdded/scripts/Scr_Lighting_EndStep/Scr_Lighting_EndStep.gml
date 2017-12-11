@@ -12,7 +12,6 @@ surface_set_target(light);
 	draw_set_color(c_white);
 	draw_set_alpha(1);
 
-
 	draw_circle(x, y - litoffset, litfactor,0);
 	
 surface_reset_target();

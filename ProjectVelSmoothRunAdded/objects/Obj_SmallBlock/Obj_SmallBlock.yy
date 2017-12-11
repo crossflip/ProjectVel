@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Obj_SmallBlock",
     "eventList": [
-        
+        {
+            "id": "52d8b5c4-4bff-45f4-aacc-3ae43f2a2781",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "963d20d8-f3b6-4980-b00c-a3ecd6327ab4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "31b5e862-d19c-4616-ab95-27a06249a4a0",
@@ -21,7 +30,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "solid": true,
+    "solid": false,
     "spriteId": "ac74670c-1582-4800-8254-abcb65cb104a",
     "visible": false
 }
