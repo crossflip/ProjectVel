@@ -218,7 +218,7 @@
             "Key": "4421f9e2-ca2b-4d55-b9c3-eeda859e365b",
             "Value": {
                 "id": "39c1a5c2-8589-481d-9386-ecb92d878286",
-                "resourcePath": "sprites\\Spr_StatueBig\\Spr_StatueBig.yy",
+                "resourcePath": "sprites\\Spr_StatueFireSheet\\Spr_StatueFireSheet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -244,6 +244,14 @@
                 "id": "0c743ff3-8826-4bda-87ae-1d3253e820d6",
                 "resourcePath": "views\\47d480d6-73c3-4d4b-8935-44d22fd1d8af.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e011050-0e99-40d8-881d-7dd120027eb6",
+            "Value": {
+                "id": "91554b03-fa96-42bb-8976-3006990ab0db",
+                "resourcePath": "scripts\\reach_tween\\reach_tween.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -324,6 +332,14 @@
                 "id": "1d8b308d-71dd-4a63-b302-e026f47dafcf",
                 "resourcePath": "views\\738df02b-f14a-44f6-8fd0-3ccb226d1738.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75e89a74-7d1e-46fe-8486-e4120d047d95",
+            "Value": {
+                "id": "b9ab80d0-8c28-45d9-874c-5dce1d48cea4",
+                "resourcePath": "sprites\\Spr_StatueBig\\Spr_StatueBig.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -664,7 +680,8 @@
         "883eb01d-be50-4904-bbbf-9364af068590",
         "2cf3f116-38b5-4140-b33e-72e20cbc765d",
         "699ec26a-dee2-4474-8fcb-c7254a940da2",
-        "47961f02-bd50-4cee-8baf-5f806323d5df"
+        "47961f02-bd50-4cee-8baf-5f806323d5df",
+        "4e011050-0e99-40d8-881d-7dd120027eb6"
     ],
     "tutorial": ""
 }

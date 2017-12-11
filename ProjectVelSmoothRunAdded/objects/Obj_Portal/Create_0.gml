@@ -2,4 +2,12 @@
 // You can write your code in this editor
 collideable = 1;
 litfactor = 100;
-litoffset = 0;
+litflicker = 101;
+litoffset = 35;
+mult = 1.3;
+
+x_offset = sprite_get_xoffset(Spr_StatueBig);
+y_offset = sprite_get_yoffset(Spr_StatueBig);
+anim_length = 10;
+yframe = 0;
+xframe = 0;
