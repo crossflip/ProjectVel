@@ -16,13 +16,8 @@ if litfactor = 99
 if Obj_Player.input_use && range 
 {
 	Obj_Transition.next = 1;
-	range = 0;
 }
 
-if Obj_Transition.opacity == 1
-{
-	Obj_Transition.transitioned =1;
-	room_goto_next();
-}
+
 
 

@@ -4,7 +4,7 @@
 enum states
 {
 	walk,
-	potato,
+	dash,
 	combat
 }
 
